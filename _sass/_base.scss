@@ -162,7 +162,8 @@ header {
         position: relative;
         text-align: center;
         padding: 100px 15px 100px;
-        width: 100%;
+        width: 60%;
+        // background-color: #FFFFF0;
         .header-content-inner {
             h1 {
                 font-weight: 700;
@@ -178,6 +179,9 @@ header {
                 color: rgba(white, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
+            }
+            a {
+                // color: black;
             }
         }
     }
@@ -214,6 +218,19 @@ header {
 .service-box {
     max-width: 400px;
     margin: 50px auto 0;
+    @media (min-width: 992px) {
+        margin: 20px auto 0;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.service-box2 {
+    max-width: 600px;
+    margin: 50px auto 0;
+    background-color: $theme-primary;
+    border: thick dashed #f44336;
     @media (min-width: 992px) {
         margin: 20px auto 0;
     }
@@ -348,4 +365,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
