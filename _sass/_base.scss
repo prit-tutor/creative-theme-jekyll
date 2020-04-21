@@ -213,6 +213,8 @@ header {
 
 .section-heading {
     margin-top: 0;
+    font-size: 50px;
+    font-weight: 600;
 }
 
 .service-box {
@@ -221,8 +223,12 @@ header {
     @media (min-width: 992px) {
         margin: 20px auto 0;
     }
+    h3 {
+        font-size: 25px;
+    }
     p {
         margin-bottom: 0;
+        font-size: 20px;
     }
 }
 
@@ -234,12 +240,16 @@ header {
         margin: 20px auto 0;
     }
     h3 {
-        font-size: 40px;
+        font-size: 30px;
     }
     p {
         margin-bottom: 0;
         font-size: 20px;
     }
+}
+
+.btn-contact {
+    text-align: center;
 }
 
 .portfolio-box {
